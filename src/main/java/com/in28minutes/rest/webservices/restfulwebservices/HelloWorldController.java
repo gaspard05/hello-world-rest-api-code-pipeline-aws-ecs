@@ -9,12 +9,12 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World";
+		return "Hello World - V4 - AWS is awesome!!!";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
-		return new HelloWorldBean("Hello World - Changed By Gaspard - V3");
+		return new HelloWorldBean("Hello World - Changed By Gaspard - V4");
 	}
 	
 	@GetMapping(path = "/hello-world/path-variable/{name}")
